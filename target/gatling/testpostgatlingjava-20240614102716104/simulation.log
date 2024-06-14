@@ -1,0 +1,4 @@
+RUN	mytestgatjava.TestPostGatlingJava	testpostgatlingjava	1718360836104	 	3.11.3
+USER	POST Game	START	1718360836490
+REQUEST		Post game	1718360836489	1718360836501	KO	status.find.is(200), but actually found 500
+USER	POST Game	END	1718360836511
